@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <form class="calculator">
+        <div class="form-group">
+            <!-- <button type="button" onclick="adding('')">%</button type="button" onclick="adding('')"><button type="button" onclick="adding('')">C</button type="button" onclick="adding('')"><button type="button" onclick="adding('')">DEL</button type="button" onclick="adding('')"><button type="button" onclick="adding('')">/</button type="button" onclick="adding('')"> -->
+            <input type="text">
+        </div>
+
+        <div class="form-group">
+            <button type="button" onclick="adding('%')">%</button>
+            <button type="button" onclick="clearing()">C</button>
+            <button type="button" onclick="re()">DEL</button>
+            <button type="button" onclick="adding('/')">/</button>
+        </div>
+        <div class="form-group">
+            <button type="button" onclick="adding('1')">1</button>
+            <button type="button" onclick="adding('2')">2</button>
+            <button type="button" onclick="adding('3')">3</button>
+            <button type="button" onclick="adding('+')">+</button>
+        </div>
+        <div class="form-group">
+            <button type="button" onclick="adding('4')">4</button>
+            <button type="button" onclick="adding('5')">5</button>
+            <button type="button" onclick="adding('6')">6</button>
+            <button type="button" onclick="adding('-')">-</button>
+        </div>
+        <div class="form-group">
+            <button type="button" onclick="adding('7')">7</button>
+            <button type="button" onclick="adding('8')">8</button>
+            <button type="button" onclick="adding('9')">9</button>
+            <button type="button" onclick="adding('/')">/</button>
+        </div>
+        <div class="form-group">
+            <button type="button" onclick="adding('0')">0</button>
+            <button type="button" onclick="adding('00')">00</button>
+            <button type="button" onclick="adding('.')">.</button>
+            <button type="button" onclick="ev()" class="equal">=</button>
+        </div>
+    </form>
+
+    <script src="index.js">
+
+    </script>
+</body>
+
+</html>
